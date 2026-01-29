@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+
+# Environment Variables
+.env
+
+# Local database
+memory.db
+rag/index/rag.db
+
+# Editor settings
+.vscode/
+
+# OS files
+.DS_Store
+
+# Audio Test File
+*.wav
+
+# PDF files
+rag/data/pdfs
+
