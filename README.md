@@ -41,3 +41,23 @@ logan/
  ├─ main.py        # Entry point
  ├─ .gitignore
  └─ requirements.txt
+
+>>> HOW TO RUN.
+```bash
+git clone https://github.com/Divyanshu1599/Logan.git
+cd Logan
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+>>> Create a .env file:
+LOGAN_EMAIL=your_email@gmail.com
+LOGAN_EMAIL_PASSWORD=your_app_password  (Remember that its will be not your normal gmail password, it will be your 16 digits app password)
+GROQ_API_KEY=your_groq_api_key
+
+>>> RUN LOGAN
+python -m core.brain
+
+---
+Important note:- Email and voice features may require additional system-level dependencies depending on the OS.
+---
